@@ -1,0 +1,52 @@
+main {
+    background-color: #eee;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+div {
+    width: 210px;
+    height: 280px;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+.title {
+    text-align: center;
+    height: 190px;
+    font-size: 130px;
+    padding-top: 40px;
+}
+.description {
+    padding: 10px;
+    padding-top: 12px;
+    background-color: white;
+    font-size: 20px;
+    width: 190px;
+    height: 25px;
+    box-shadow: 0 3px 5px rgba(122,122,122,0.5);
+}
+.reload {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 70px;
+    left: 160px;
+    background: #4d88ef url(img/arrow.png) no-repeat 13px 10px;
+    background-size: 15px;
+    box-shadow: 0 2px 5px rgba(122,122,122,0.7);
+}
+#card3 {
+    background-color: #269f5d;
+    color: white;
+}
+#card1 {
+    background-color: #65c2dc;
+    color:#333;
+}
+#card2 {
+    background-color: #eebc40;
+    color: white;
+}
