@@ -1,0 +1,23 @@
+table {
+    border: 1px outset grey;
+    margin: auto;
+}
+thead {
+    font-weight: bold;
+    text-align: center;
+}
+td {
+    width: 120px;
+    height: 20px;
+    padding: 3px;
+    border: 1px inset grey;
+}
+.titleRow {
+    width: 240px;
+}
+.lastRow {
+    width: 100px;
+}
+.colspan {
+    text-align: center;
+}
